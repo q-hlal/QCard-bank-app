@@ -37,9 +37,9 @@ const HeroContent = () => {
 
   return (
     loader && (
-      <div className="scroll-wrapper min-h-[300vh] ">
+      <div className="scroll-wrapper min-h-screen">
         <motion.div
-          className="section p-20 h-[100vh] relative overflow-hidden"
+          className="section p-20 min-h-[100vh] relative overflow-hidden"
         >
           {/* Hero Section */}
           <motion.div 
@@ -207,8 +207,8 @@ const HeroContent = () => {
         variants={thierdAnimation}
         initial="hidden"
         whileInView="visible"
-        viewport={{  amount: 1 }}
-        className="section text-4xl p-20 min-h-[100vh] text-white flex flex-col justify-center items-center gap-6 relative"
+        viewport={{  amount: 0.98 }}
+        className="text-4xl p-20 section h-screen text-white flex flex-col justify-center items-center gap-6 relative"
       >
         <h1 className="md:text-6xl text-4xl text-center font-bold">مستقبلك المالي يبدأ الآن</h1>
         <h3 className="md:text-2xl text-xl text-center  font-semibold text-gray-300">
