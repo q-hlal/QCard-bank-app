@@ -219,7 +219,7 @@ const HeroContent = () => {
           تتيح لك البطاقة وتفتح أمامك فرصاً جديدة لتحقيق أهدافك المالية بثقة واستقرار, سارع بالحجز الآن.
         </p>
         
-        <div>
+        <div className="mb-5">
           <button 
           onClick={() => handleNavigation("/card")}
           className="md:px-6 py-2 px-2 rounded-full md:font-medium text-lg  bg-yellow-300 text-white z-5 cursor-pointer hover:bg-yellow-400 transition duration-300 md:mt-6">
