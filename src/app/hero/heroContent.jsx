@@ -208,7 +208,7 @@ const HeroContent = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{  amount: 1 }}
-        className="section text-4xl p-20 h-[100vh] text-white flex flex-col justify-center items-center gap-6 relative"
+        className="section text-4xl p-20 min-h-[100vh] text-white flex flex-col justify-center items-center gap-6 relative"
       >
         <h1 className="md:text-6xl text-4xl text-center font-bold">مستقبلك المالي يبدأ الآن</h1>
         <h3 className="md:text-2xl text-xl text-center  font-semibold text-gray-300">
