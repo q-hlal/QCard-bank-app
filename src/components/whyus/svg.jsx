@@ -2,7 +2,7 @@ import React from 'react'
 
 const Svg = () => {
   return (
-    <div className='md:flex hidden'>
+    <div className='relative  md:flex hidden'>
         <svg fill="none" height="264" role="img" viewBox="0 0 891 264" width="891" data-lines="true" >
             <path d="M400 96L400 68C400 65.7909 386.209 64 384 64L310 64" stroke="black" strokeOpacity="0.1" pathLength="1" strokeDashoffset="0px" strokeDasharray="1px 1px"></path>
             <path d="M349 150L73 150C70.7909 150 69 151.791 69 154L69 174" stroke="black" strokeOpacity="0.1" pathLength="1" strokeDashoffset="0px" strokeDasharray="1px 1px"></path>

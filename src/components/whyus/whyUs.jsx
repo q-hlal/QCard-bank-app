@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
-import { MdArrowOutward } from "react-icons/md";
 import Svg from './svg';
 
 const WhyUs = () => {
@@ -33,7 +32,7 @@ const WhyUs = () => {
                 <div className="bg-black text-gray-200 rounded-lg p-6">
                   شركاؤنا في النجاح
                 </div>
-                 <div className='absolute left-1/2 top-95 -translate-x-1/2 -translate-y-1/2 transition'>
+                 <div className="absolute top-[24rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition">
                   <Svg />
                 </div>
               </div>
