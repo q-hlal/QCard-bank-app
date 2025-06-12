@@ -53,7 +53,7 @@ const HeroContent = () => {
           >
             <h1 className="
             font-bold text-white mb-4 leading-relaxed flex flex-wrap justify-center
-            text-2xl md:text-4xl 
+            text-1xl md:text-4xl 
             ">
               {firstWords.map(({ word, id }) => (
                 <motion.span key={id} variants={wordVariants} className="ml-3 inline-block">
@@ -63,7 +63,7 @@ const HeroContent = () => {
             </h1>
             <button 
             onClick={() => handleNavigation("/routes")}
-            className="bg-white text-black px-6 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-200 transition duration-300">
+            className="bg-white text-black md:px-6 md:py-2 px-4 py-1.5 rounded-full font-medium cursor-pointer hover:bg-gray-200 transition duration-300">
               أكتشف المزيد
             </button>
           </motion.div>
@@ -162,7 +162,7 @@ const HeroContent = () => {
           </motion.div>
 
           {/* Easy to Use */}
-          <motion.div variants={secondAnimation} className="flex flex-col absolute md:bottom-20  md:right-30 bottom-50  right-0 items-center max-w-xs text-center">
+          <motion.div variants={secondAnimation} className="flex flex-col absolute md:bottom-20  md:right-30 bottom-47  right-0 items-center max-w-xs text-center">
             <div className="flex items-center gap-2 mb-2">
               <span className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center md:text-2xl">
                 <FaMoneyCheckDollar />
@@ -176,7 +176,7 @@ const HeroContent = () => {
           </motion.div>
 
           {/* Good for Online Shopping */}
-          <motion.div variants={secondAnimation} className="flex flex-col absolute md:bottom-80 md:left-10 bottom-90 left-0 items-center max-w-xs text-center">
+          <motion.div variants={secondAnimation} className="flex flex-col absolute md:bottom-80 md:left-10 bottom-85 left-0 items-center max-w-xs text-center">
             <div className="flex items-center gap-2 mb-2">
               <span className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center md:text-2xl">
                 <FaCartShopping />
@@ -222,7 +222,7 @@ const HeroContent = () => {
         <div className="mb-5">
           <button 
           onClick={() => handleNavigation("/card")}
-          className="md:px-6 py-2 px-2 rounded-full md:font-medium text-lg  bg-yellow-300 text-white z-5 cursor-pointer hover:bg-yellow-400 transition duration-300 md:mt-6">
+          className="md:px-6 py-2 px-2 rounded-full md:font-medium text-lg  bg-yellow-300 text-white z-5 cursor-pointer hover:bg-yellow-400 transition duration-300 md:mt-6 mt-4 mb-4">
             أحصل علئ بطاقتك
           </button>
         </div>

@@ -49,13 +49,14 @@ const page = () => {
         variants={showUp}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 md:grid-cols-3 gap-6 p-30"
+        className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-30 p-4"
       >
         {data.map((item, index) => (
           <motion.div
             key={index}
             variants={childAnim}
-            className="bg-gray-800 rounded-lg overflow-hidden shadow-md"
+            style={{direction : 'rtl'}}
+            className="bg-gray-800 rounded-lg overflow-hidden shadow-md "
           >
             <div className="relative w-full h-48">
               <Image

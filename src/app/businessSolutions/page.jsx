@@ -24,7 +24,7 @@ const Page = () => {
       variants={showUp}
       initial="hidden"
       animate="visible"
-      className="flex flex-col gap-6 p-4">
+      className="flex flex-col gap-6  pt-30 p-4">
         <motion.div variants={childAnim} className="relative w-full h-[50vh] rounded-xl overflow-hidden">
           <Image
             alt="business Img"

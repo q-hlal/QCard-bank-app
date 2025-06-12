@@ -25,7 +25,7 @@ return (
         variants={showUp}
         initial="hidden"
         animate="visible"
-        className='flex min-h-screen items-center justify-end flex-col h-full p-4'
+        className='flex min-h-screen items-center justify-end flex-col h-full pt-30 p-4'
       >
         <div className='flex flex-col lg:flex-row w-full gap-4 items-start text-white'>
           <motion.div variants={childAnim} className='flex flex-col w-full lg:w-2/3 items-end'>

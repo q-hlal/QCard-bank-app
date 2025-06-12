@@ -28,7 +28,7 @@ const Page = () => {
   if (!loader) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-100 to-white flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-100 to-white flex items-center justify-center p-5">
       <div className="bg-white rounded-3xl shadow-xl p-8 max-w-2xl w-full">
 
         {/* Top Icon and Heading */}
